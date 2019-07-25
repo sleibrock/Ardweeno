@@ -6,7 +6,12 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-SomeDataType     KEYWORD1
+Number                         KEYWORD1
+Pin                            KEYWORD1
+Readable                       KEYWORD1
+Writable                       KEYWORD1
+Switch                         KEYWORD1
+Toggleable                     KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)

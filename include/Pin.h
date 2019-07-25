@@ -4,6 +4,9 @@
  * @author Steven Leibrock <steven.leibrock@gmail.com>
  */
 
+#ifndef _WEENO_PIN_H
+#define _WEENO_PIN_H
+
 
 class Pin: public Switch, public Toggleable
 {
@@ -22,3 +25,7 @@ class Pin: public Switch, public Toggleable
   {
   }
 };
+
+#endif
+
+// end Pin.h
