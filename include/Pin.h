@@ -12,18 +12,12 @@ class Pin: public Switch, public Toggleable
 {
  public:
   Pin();
+
+  byte data;
   
-  void on()
-  {
-  }
-
-  void off()
-  {
-  }
-
-  void toggle()
-  {
-  }
+  void on();
+  void off();
+  void toggle();
 };
 
 #endif
