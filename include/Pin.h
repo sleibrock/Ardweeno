@@ -7,6 +7,8 @@
 #ifndef _WEENO_PIN_H
 #define _WEENO_PIN_H
 
+#include "Toggleable.h"
+#include "Switch.h"
 
 class Pin: public Switch, public Toggleable
 {

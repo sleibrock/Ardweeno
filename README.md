@@ -9,3 +9,12 @@ Weeno is an advanced C++ library for writing Arduino code. Much of it is code ai
 * Enumerations
 * Safe arithmetic / numerics
 * Timer logic
+
+
+
+## Arduino Code Notes
+
+* Avoid division, it's horrible
+* Avoid floating points, also horrible
+* Arduino code depends on controlling certain pins automatically. If you overwrite a pin's in/out bits, then you may lose certain Arduino functionality.
+* Object allocation is all heap-based so avoid invocations of `new` or `delete`. Objects should be declared at compile-time for more predictable performance.
