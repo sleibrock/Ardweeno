@@ -12,6 +12,13 @@ Readable                       KEYWORD1
 Writable                       KEYWORD1
 Switch                         KEYWORD1
 Toggleable                     KEYWORD1
+PinType                        KEYWORD1
+PinStatus                      KEYWORD1
+PinMode                        KEYWORD1
+u16                            KEYWORD1
+u32                            KEYWORD1
+i16                            KEYWORD1
+i32                            KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
